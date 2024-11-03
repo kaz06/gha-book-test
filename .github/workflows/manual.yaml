@@ -4,10 +4,10 @@ on:
     inputs:
       log-level:
         type: choice
-      options:
-        - info
-        - warn
-        - error
+        options:
+          - info
+          - warn
+          - error
 jobs:
   run:
     runs-on: ubuntu-latest
